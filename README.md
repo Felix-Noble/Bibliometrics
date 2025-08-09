@@ -43,19 +43,6 @@ The workflow is split into **two modular repositories**:
 
 ---
 
-## High-Level Architecture
-
-```mermaid
-flowchart LR
-    A[Scraping & Acquisition\n(OpenAlex API)] --> B[Integration & Cleaning\n(Dask, Parquet)]
-    B --> C[Feature Extraction\n(Embeddings + Bibliometrics)]
-    C --> D[Reference-Aware Features]
-    D --> E[Model Training\n(Conv1D)]
-    E --> F[Hyperparameter Tuning\n(Bayesian Search)]
-    F --> G[Temporal Cross-Validation]
-    G --> H[Evaluation & Metrics\n(.h5, CSV)]
-```
-
 ---
 
 ## Key Features
