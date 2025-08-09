@@ -13,7 +13,7 @@ The workflow is split into **two modular repositories**:
 ## Project Workflow
 
 ### **1. Data Acquisition → Feature Extraction**  
-**Repo:** [Bibliometrics-Data]([https://github.com/Felix-Noble/Bibliometrics-Data])  
+**Repo:** [(Bibliometrics-Data)](https://github.com/Felix-Noble/Bibliometrics-Data)  
 - **Scraping**:
   - Collects metadata, abstracts, and citation networks from the OpenAlex API.
   - Handles polite API usage, retries, and reference expansion.
@@ -27,7 +27,7 @@ The workflow is split into **two modular repositories**:
 ---
 
 ### **2. Model Training → Hyperparameter Tuning → Temporal Cross-Validation**  
-**Repo:** [Bibliometrics-Forecasting]([https://github.com/Felix-Noble/Bibliometrics-Forecasting])  
+**Repo:** [(Bibliometrics-Forecasting)](https://github.com/Felix-Noble/Bibliometrics-Forecasting)  
 - **Data Loading**:
   - Streams large datasets efficiently with `tf.data` pipelines and on-disk caching.
 - **Model Architecture**:
