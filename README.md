@@ -1,4 +1,5 @@
-# Bibliometrics: End-to-End data pipeline for forecasting academic impact from article abstracts
+# Bibliometrics: 
+End-to-End data pipeline for forecasting academic impact from article abstracts
 
 ## Overview
 This project implements a **two-stage, end-to-end machine learning pipeline** for acquiring, processing, and modeling scholarly publication data.  
